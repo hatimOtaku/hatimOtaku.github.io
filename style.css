@@ -1,0 +1,104 @@
+body{
+    background: rgb(53, 52, 52);
+    color:white;
+}
+h1{
+    text-align: center;
+}
+h1{
+    font-family: 'Segoe UI';
+}
+.general{
+    width: 100%;
+}
+.leftbox{
+    background-color: rgba(44, 168, 240, 0.76);
+    height: 600px;
+    width: 50vh;
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 10%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.rightbox{
+    background-color: brown;
+    display: inline-block;
+    float: right;
+    width: 50vh;
+    height: 600px;
+    position: relative;
+    right:10%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+p{
+    margin:3px;
+}
+.email{
+    display: inline-block;
+    margin: 5px;
+
+}
+.name{
+    width: fit-content;
+    margin: 5px;
+    display: inline-block;
+}
+.name2{
+    float: right;
+    margin: 5px;
+}
+.phone{
+    margin: 5px;
+    display: inline-block;
+    float: right;
+
+}
+.leftbox p{
+    font-weight: 900;
+}
+.report textarea{
+    margin:10px;
+    border-radius: 10px;
+    padding:7px;
+    background-color: #d6d6d6;
+}
+input{
+    border-radius: 7px;
+    padding: 3px;
+    border:1px solid #48eaff;
+    box-shadow:0 0 3px #1ed7f0;
+    -moz-box-shadow:0 0 3px #00ffff;
+    -webkit-box-shadow:0 0 3px #009be2;
+}
+input:focus{
+    outline: none;
+    transform: scale(1.1);
+    transition: 500ms;
+}
+hr{
+    border:black solid 1px;
+}
+textarea:focus{
+    outline: none;
+}
+body{
+  background-image: url('back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover 100vh;
+}
+@media screen and (max-width: 600px) {
+    .rightbox{
+   left: 10%;
+   float: left;
+   
+    }
+    .general{
+        width: 150%;
+    }
+  }
