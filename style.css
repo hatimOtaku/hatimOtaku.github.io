@@ -54,3 +54,6 @@ a:hover{
     padding: 20px;
     transition: 300ms;
 }
+li{
+margin:6px;
+}
